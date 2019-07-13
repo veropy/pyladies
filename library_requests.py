@@ -23,6 +23,8 @@ r.json()
 
 r.json()['iss_position']['latitude']
 
+json_normalize(r.json()['iss_position'])
+
 
 # ## 2) Imagem astronômica do seu aniversário em 2018!
 url = "https://api.nasa.gov/planetary/apod"
